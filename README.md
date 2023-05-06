@@ -2,8 +2,6 @@
 This project and repository is no longer actively maintained or supported. See [The Future of Insight](https://github.com/EVEInsight/Insight/blob/master/the_future_of_Insight.md) document for reasoning and an FAQ.
 Thank you all for supporting and enjoying Insight over the years!
 
-Fly safe o7
-
 # Insight v1.7.0
 [![](https://img.shields.io/badge/-EVEInsight.net-154360)](https://eveinsight.net)
 [![](https://img.shields.io/docker/pulls/nathanls/insight.svg)](https://hub.docker.com/r/nathanls/insight)
@@ -198,9 +196,15 @@ to blacklist from appearing on the radar, accessible by the ```!sync``` command.
 | experimental | Deprecated branch.                  |
 
 # Hosting Insight
-There are two ways to run and host Insight yourself if you do not wish to use the [public bot](#invite-links).
-#### [Docker](https://hub.docker.com/r/nathanls/insight/)
-The recommended and easiest method to host Insight. Images are automatically built on new commits.
+There are two ways to run and host Insight yourself.
+#### **Docker**
+Since the original image is no longer being updated, any changes will require you to rebuild the image yourself.
+
+Copy the Dockerfile from `scripts/Docker` to the root directory then run:
+```
+docker build . -t name:latest
+```
+Replacing `name:latest` with an appropiate `name:version`.
 
 See [Insight on Docker Hub](https://hub.docker.com/r/nathanls/insight/) for Insight container usage and [Docker docs](https://docs.docker.com/) for getting started with Docker.
 

@@ -21,7 +21,7 @@ class BeaconLosses(enFeed):
 
     @classmethod
     def get_template_id(cls):
-        return 3
+        return 14
 
     @classmethod
     def get_template_desc(cls):

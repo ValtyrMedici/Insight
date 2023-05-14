@@ -3,6 +3,7 @@ from .CapitalLosses import CapitalLosses
 from .BigKills import BigKills
 from .Freighters import Freighters
 from .ExcavatorLosses import ExcavatorLosses
+from .BeaconLosses import BeaconLosses
 from .AbyssalLosses import AbyssalLosses
 from .AbyssalPvP import AbyssalPvP
 from .OfficerHunter import OfficerHunter
